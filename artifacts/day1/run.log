@@ -1,0 +1,8 @@
+2026-03-16T10:56:54.820908+00:00Z ONLINE mode: GET https://jsonplaceholder.typicode.com/todos/1
+2026-03-16T10:57:14.839309+00:00Z ERROR ConnectionError: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Max retries exceeded with url: /todos/1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f187175b070>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2026-03-16T10:58:00.583632+00:00Z OFFLINE mode: loaded cached response.json
+2026-03-16T10:58:00.583942+00:00Z DONE status=200 validation=True
+2026-03-16T11:01:39.690609+00:00Z OFFLINE mode: loaded cached response.json
+2026-03-16T11:01:39.691193+00:00Z DONE status=200 validation=True
+2026-03-16T11:03:22.727315+00:00Z OFFLINE mode: loaded cached response.json
+2026-03-16T11:03:22.727877+00:00Z DONE status=200 validation=True

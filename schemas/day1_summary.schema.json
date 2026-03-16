@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+      "schema_version": { "type": "string" },
+      "generated_utc": { "type": "string" },
+  
+      "student": {
+        "type": "object",
+        "properties": {
+          "token": { "type": "string" },
+          "name": { "type": "string" },
+          "group": { "type": "string" }
+        },
+        "required": ["token", "name", "group"]
+      },
+  
+      "api": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "status_code": { "type": "number" },
+          "validation_passed": { "type": "boolean" },
+          "validation_errors": { "type": "array" },
+          "response_sha256": { "type": "string" }
+        },
+        "required": [
+          "url",
+          "status_code",
+          "validation_passed",
+          "validation_errors",
+          "response_sha256"
+        ]
+      },
+  
+      "run": {
+        "type": "object",
+        "properties": {
+          "python": { "type": "string" },
+          "platform": { "type": "string" }
+        },
+        "required": ["python", "platform"]
+      }
+    },
+    "required": ["schema_version", "generated_utc", "student", "api", "run"]
+  }
