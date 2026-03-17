@@ -1,0 +1,34 @@
+{
+  "artifacts_sha256": {
+    "add100_report": "80696f833511ee87351c1cfce5657931a27db3943ae2d82b46ed86f0a317433d",
+    "books_before": "2858d207a3ccebb1cc252ef8873a0af5122bee51aa5f9686461c84533bb574d8",
+    "books_by_me": "056e17fc0728732895d3baaa6c78b84b945819c9e6dbe72da505d0b5d37ed341",
+    "books_sorted_isbn": "19ada163c21fd84256f015d944aa5856de200a44b152b6ea866601fb879d36c8",
+    "curl_get_books": "de64bae22fde03848fbeb14e2a6c661cf7e9eed12f29b574d596224bf5bf6bf9",
+    "curl_get_books_isbn": "ee1093008a5d89a75d9aaf8a2c8a7987c8841bce0c4028d02d32e78f083fb227",
+    "curl_get_books_sorted": "6e87e9da9e47b139ee6633b979ddefac161bd7ee3006a66118067b2b866bcef5",
+    "mybook_post": "620ce03e34fd937d1ac0e3be16f8f79f20d79441c54088ee76411bdcf2b07fb4",
+    "postman_collection": "1893ca357d6c489a5c2a5eec98fd8c94f5c020b8bdfa388314ccf6df91343689",
+    "postman_environment": "02f4df59b275b032476f9222112e2e098d179ce352dba079d48bf00e6927e1bf"
+  },
+  "generated_utc": "2026-03-17T11:56:21.367810+00:00",
+  "lab": {
+    "apihost": "http://library.demo.local",
+    "must_use": {
+      "api_key_header": "X-API-KEY",
+      "books_endpoint": "http://library.demo.local/api/v1/books",
+      "login_endpoint": "http://library.demo.local/api/v1/loginViaBasic"
+    }
+  },
+  "schema_version": "3.1",
+  "student": {
+    "group": "IB-23-5B",
+    "name": "Kanatov Erkhan",
+    "token": "D1-IB-23-5b-08-4B6A",
+    "token_hash8": "b00c4a82"
+  },
+  "validation": {
+    "must_have_added_100": true,
+    "must_have_mybook_title_contains_token_hash8": true
+  }
+}

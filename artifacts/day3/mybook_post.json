@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "5b586279d210f6915a0769b0cc957188c2ee6192e7d93f0dcbd76b28393a28ab",
+  "request": {
+    "author": "Kanatov Erkhan",
+    "id": 5008,
+    "isbn": "978-08b00c4a82",
+    "title": "My DevNet Book b00c4a82"
+  },
+  "response": {
+    "author": "Kanatov Erkhan",
+    "id": 5008,
+    "title": "My DevNet Book b00c4a82"
+  },
+  "status_code": 200
+}
