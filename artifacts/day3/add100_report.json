@@ -1,0 +1,45 @@
+{
+  "added_fail": 0,
+  "added_ok": 100,
+  "api_key_sha256": "5b586279d210f6915a0769b0cc957188c2ee6192e7d93f0dcbd76b28393a28ab",
+  "author_used": "Kanatov Erkhan",
+  "count_requested": 100,
+  "generated_utc": "2026-03-17T11:51:59.099379+00:00",
+  "id_range": [
+    7600,
+    7699
+  ],
+  "sample_books": [
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7600,
+      "isbn": "978-0-637-15754-4",
+      "title": "Business-focused mobile benchmark [b00c4a82]"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7601,
+      "isbn": "978-0-8346-1527-4",
+      "title": "Enhanced background Local Area Network [b00c4a82]"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7602,
+      "isbn": "978-0-8064-8959-9",
+      "title": "Reverse-engineered web-enabled leverage [b00c4a82]"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7603,
+      "isbn": "978-0-360-43478-3",
+      "title": "Face-to-face executive installation [b00c4a82]"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7604,
+      "isbn": "978-1-5142-6612-0",
+      "title": "Ameliorated context-sensitive access [b00c4a82]"
+    }
+  ],
+  "tag": "b00c4a82"
+}

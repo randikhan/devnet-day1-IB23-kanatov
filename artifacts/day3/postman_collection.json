@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "219119ce-e987-4258-bfc6-5794b125748f",
+		"name": "day3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/books ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library.demo.local/api/v1/books?includeISBN=true&sortBy=author",
+					"protocol": "http",
+					"host": [
+						"library",
+						"demo",
+						"local"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					],
+					"query": [
+						{
+							"key": "includeISBN",
+							"value": "true"
+						},
+						{
+							"key": "sortBy",
+							"value": "author"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/loginViaBasic",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Cisco123!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cisco",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://library.demo.local/api/v1/loginViaBasic",
+					"protocol": "http",
+					"host": [
+						"library",
+						"demo",
+						"local"
+					],
+					"path": [
+						"api",
+						"v1",
+						"loginViaBasic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/v1/books",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "cisco|2eA8bb7Wrs-mQ-NRN0Fk6YyQG8iYq8zHpUa4cy_sGyk",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 99,\n  \"title\": \"My Test Book\",\n  \"author\": \"Kanatov Erkhan\",\n  \"isbn\": \"978-0000000001\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://library.demo.local/api/v1/books",
+					"protocol": "http",
+					"host": [
+						"library",
+						"demo",
+						"local"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

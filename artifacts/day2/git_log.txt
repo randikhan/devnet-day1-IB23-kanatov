@@ -1,0 +1,11 @@
+* b9c7d61 (HEAD -> feature/day2-dataformats, origin/feature/day2-dataformats) Day2 artifacts + data formats
+* e83a1bb Day2 data formats
+| *   e599ab0 (main) Resolve README conflict (Day2)
+| |\  
+| | * 326525f (origin/feature/day2-readme-B, feature/day2-readme-B) B change
+| |/  
+|/|   
+| * 3deb8e5 (origin/feature/day2-readme-A, feature/day2-readme-A) A change
+|/  
+* 47c59ac (origin/main) add report
+* d0318f7 init structure

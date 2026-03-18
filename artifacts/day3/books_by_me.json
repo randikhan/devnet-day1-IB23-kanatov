@@ -1,0 +1,42 @@
+{
+  "count": 6,
+  "items": [
+    {
+      "author": "Kanatov Erkhan",
+      "id": 99,
+      "isbn": "978-0000000001",
+      "title": "My Test Book"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 5008,
+      "isbn": "978-08b00c4a82",
+      "title": "My DevNet Book b00c4a82"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7600,
+      "isbn": "978-0-637-15754-4",
+      "title": "Business-focused mobile benchmark [b00c4a82]"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7601,
+      "isbn": "978-0-8346-1527-4",
+      "title": "Enhanced background Local Area Network [b00c4a82]"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7602,
+      "isbn": "978-0-8064-8959-9",
+      "title": "Reverse-engineered web-enabled leverage [b00c4a82]"
+    },
+    {
+      "author": "Kanatov Erkhan",
+      "id": 7603,
+      "isbn": "978-0-360-43478-3",
+      "title": "Face-to-face executive installation [b00c4a82]"
+    }
+  ],
+  "status_code": 200
+}
