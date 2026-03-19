@@ -1,7 +1,7 @@
 import requests, json, hashlib, os
 
 TOKEN = os.environ.get("WEBEX_TOKEN", "N2Q2ODMwMTEtMjU5Ny00NmQ4LWE4MTMtNGQwZWIwODM1ZmMwM2NlZTgzNTMtZjc5_P0A1_381a95f5-7349-4f5b-bc0d-1e1f574b419a")
-hash8 = hashlib.sha256(TOKEN.encode()).hexdigest()[:8]
+hash8 = hashlib.sha256(os.environ.get("STUDENT_TOKEN", "D1-IB-23-5b-08-4B6A").encode()).hexdigest()[:8]
 H = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
 BASE = "https://webexapis.com/v1"
 
